@@ -1,0 +1,55 @@
+.logo {
+    display: flex;
+    /* height: 300px; */
+    align-items: center;
+    margin-top: 60px;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: teal;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+
+.head {
+    display: flex;
+    color: #000;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font: italic small-caps bold 16px/2 cursive;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('clouds.jpg');
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 12px;
+    top: 20%;
+    box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+    margin: 80px auto;
+    /* margin-top: 80px;
+    margin-bottom: 80px; */
+}
+
+body {
+    background-image: url('snow-gif.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    line-height: 30px;
+}
